@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Arizonia";
-  src: url(/fonts/Arizonia-Regular.ttf);
+  src: url(../fonts/Arizonia-Regular.ttf);
 }
 @font-face {
   font-family: "Afacad";
-  src: url(/fonts/Afacad-Regular.ttf);
+  src: url(../fonts/Afacad-Regular.ttf);
 }
 
 .nutrition-page {
