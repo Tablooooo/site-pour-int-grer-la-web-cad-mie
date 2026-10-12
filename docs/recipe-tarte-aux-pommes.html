@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarte aux Pommes - Cagibi</title>
+    <link rel="stylesheet" href="/css/communs.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/recipe-model.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/docs/index.html" class="header__logo-link">
+            <img src="/images/logo.png" alt="logo" class="header__logo-image" />
+          </a>
+        </div>
+        <div class="header__title">
+          <a href="/docs/index.html" class="header__title-link">Cagibi</a>
+        </div>
+
+        <button class="header__burger" id="burger">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+        </button>
+      </div>
+
+      <nav class="header__nav" id="nav">
+        <button class="header__close" id="close">&times;</button>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="/docs/index.html" class="header__nav-link">Accueil</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/docs/recettes.html" class="header__nav-link">Recettes</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/docs/nutrition.html" class="header__nav-link"
+              >Conseils nutritionnels</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="recipe-page">
+      <section class="recipe-hero">
+        <div class="recipe-hero__image">
+          <img
+            src="/images/tarte-aux-pommes.avif"
+            alt="Tarte aux pommes dorée et croustillante"
+            class="recipe-hero__img"
+          />
+        </div>
+        <div class="recipe-hero__details">
+          <h1 class="recipe-hero__title">Tarte aux Pommes</h1>
+          <div class="recipe-hero__meta">
+            <span class="recipe-hero__portions">8 portions</span>
+            <span class="recipe-hero__time">Préparation : 25 min</span>
+            <span class="recipe-hero__time">Cuisson : 40 min</span>
+          </div>
+          <div class="recipe-hero__ingredients">
+            <h2>Ingrédients</h2>
+            <ul class="recipe-hero__ingredients-list">
+              <h3>Pour la pâte brisée</h3>
+              <li>250 g de farine</li>
+              <li>125 g de beurre froid</li>
+              <li>1 pincée de sel</li>
+              <li>1 cuillère à soupe de sucre</li>
+              <li>1 œuf</li>
+              <li>2 cuillères à soupe d'eau froide</li>
+              <br />
+              <h3>Pour la garniture</h3>
+              <li>6 pommes (type Golden ou Granny Smith)</li>
+              <li>100 g de sucre roux</li>
+              <li>1 cuillère à café de cannelle</li>
+              <li>1 cuillère à soupe de jus de citron</li>
+              <li>20 g de beurre pour la garniture</li>
+              <br />
+              <h3>Pour la finition</h3>
+              <li>1 jaune d'œuf pour dorer</li>
+              <li>Sucre glace (optionnel)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="recipe-separator"></div>
+      <section class="recipe-instructions">
+        <h2>Instructions</h2>
+        <ol class="recipe-instructions__list">
+          <h3>Préparation de la pâte :</h3>
+          <li>
+            Mélangez la farine, le sucre et le sel. Ajoutez le beurre froid
+            coupé en morceaux et sabler du bout des doigts.
+          </li>
+          <li>
+            Incorporez l'œuf et l'eau froide, puis formez une boule. Filmez et
+            réservez au frigo 30 min.
+          </li>
+          <h3>Préparation des pommes :</h3>
+          <li>
+            Épluchez et épépinez les pommes. Coupez-les en fines tranches et
+            arrosez de jus de citron.
+          </li>
+          <li>Mélangez les pommes avec le sucre et la cannelle.</li>
+          <h3>Montage et cuisson :</h3>
+          <li>
+            Étalez la pâte et foncez un moule à tarte. Piquez le fond avec une
+            fourchette.
+          </li>
+          <li>
+            Disposez les pommes en rosace. Parsemez de petits morceaux de
+            beurre.
+          </li>
+          <li>
+            Badigeonnez les bords avec le jaune d'œuf. Enfournez à 180°C pendant
+            40 min.
+          </li>
+          <h3>Dégustation :</h3>
+          <li>
+            Laissez tiédir avant de saupoudrer de sucre glace. Servez avec une
+            boule de glace vanille.
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img
+            src="/images/logo.png"
+            alt="Logo Cagibi"
+            class="footer__logo-image"
+          />
+        </div>
+        <div class="footer__content">
+          <p class="footer__text">© 2025 Cagibi. Tous droits réservés.</p>
+          <a href="#" class="footer__link">Mentions légales</a>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/burgerMenu.js"></script>
+  </body>
+</html>

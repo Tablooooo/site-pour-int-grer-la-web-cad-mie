@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pâtes Carbonara - Cagibi</title>
+    <link rel="stylesheet" href="/css/communs.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/recipe-model.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/docs/index.html" class="header__logo-link">
+            <img src="/images/logo.png" alt="logo" class="header__logo-image" />
+          </a>
+        </div>
+        <div class="header__title">
+          <a href="/docs/index.html" class="header__title-link">Cagibi</a>
+        </div>
+        <button class="header__burger" id="burger">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+        </button>
+      </div>
+      <nav class="header__nav" id="nav">
+        <button class="header__close" id="close">&times;</button>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="/docs/index.html" class="header__nav-link">Accueil</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/docs/recettes.html" class="header__nav-link">Recettes</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link">Conseils nutritionnels</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="recipe-page">
+      <section class="recipe-hero">
+        <div class="recipe-hero__image">
+          <img
+            src="/images/pate-carbo.jpg"
+            alt="Pâtes Carbonara crémeuses"
+            class="recipe-hero__img"
+          />
+        </div>
+        <div class="recipe-hero__details">
+          <h1 class="recipe-hero__title">Pâtes Carbonara</h1>
+          <div class="recipe-hero__meta">
+            <span class="recipe-hero__portions">4 portions</span>
+            <span class="recipe-hero__time">Préparation : 10 min</span>
+            <span class="recipe-hero__time">Cuisson : 15 min</span>
+          </div>
+          <div class="recipe-hero__ingredients">
+            <h2>Ingrédients</h2>
+            <ul class="recipe-hero__ingredients-list">
+              <h3>Pour les pâtes</h3>
+              <li>400 g de spaghetti (ou rigatoni)</li>
+              <li>1,5 L d’eau bouillante salée</li>
+              <br />
+              <h3>Pour la sauce carbonara</h3>
+              <li>4 jaunes d’œufs frais</li>
+              <li>1 œuf entier</li>
+              <li>100 g de pecorino romano râpé (ou parmesan)</li>
+              <li>50 g de parmesan râpé</li>
+              <li>150 g de pancetta (ou lardons fumés)</li>
+              <li>Poivre noir fraîchement moulu (à volonté)</li>
+              <li>1 pincée de sel</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="recipe-separator"></div>
+      <section class="recipe-instructions">
+        <h2>Instructions</h2>
+        <ol class="recipe-instructions__list">
+          <h3>Préparation des ingrédients :</h3>
+          <li>
+            Coupez la pancetta en petits dés. Râpez finement le pecorino et le
+            parmesan. Séparez les jaunes d’œufs et gardez-les dans un bol à
+            température ambiante.
+          </li>
+          <h3>Cuisson des pâtes :</h3>
+          <li>
+            Faites bouillir l’eau salée dans une grande casserole. Plongez les
+            pâtes et faites-les cuire selon le temps indiqué sur le paquet
+            (généralement 8-10 min pour des spaghetti al dente). Réservez 100 ml
+            d’eau de cuisson avant d’égoutter les pâtes.
+          </li>
+          <h3>Préparation de la sauce :</h3>
+          <li>
+            Pendant que les pâtes cuisent, faites revenir la pancetta à feu
+            moyen dans une poêle sans ajout de matière grasse jusqu’à ce qu’elle
+            soit croustillante. Éteignez le feu et réservez.
+          </li>
+          <li>
+            Dans un bol, mélangez les jaunes d’œufs, l’œuf entier, le pecorino,
+            le parmesan, une pincée de sel et une généreuse quantité de poivre
+            noir.
+          </li>
+          <h3>Assemblage :</h3>
+          <li>
+            Hors du feu, ajoutez immédiatement les pâtes égouttées dans la poêle
+            avec la pancetta. Versez le mélange œufs-fromage en filet tout en
+            remuant énergiquement avec une cuillère en bois. Ajoutez un peu
+            d’eau de cuisson réservée pour ajuster la consistance de la sauce
+            (elle doit être onctueuse).
+          </li>
+          <li>
+            Servez immédiatement, avec un peu de pecorino supplémentaire et un
+            tour de moulin à poivre.
+          </li>
+          <h3>Astuce :</h3>
+          <li>
+            Pour éviter que les œufs ne cuisent en omelette, retirez la poêle du
+            feu avant d’ajouter le mélange œufs-fromage et travaillez
+            rapidement. La chaleur des pâtes suffira à épaissir la sauce.
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img
+            src="/images/logo.png"
+            alt="Logo Cagibi"
+            class="footer__logo-image"
+          />
+        </div>
+        <div class="footer__content">
+          <p class="footer__text">© 2025 Cagibi. Tous droits réservés.</p>
+          <a href="#" class="footer__link">Mentions légales</a>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/burgerMenu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Risotto aux Champignons - Cagibi</title>
+    <link rel="stylesheet" href="/css/communs.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/recipe-model.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/docs/index.html" class="header__logo-link">
+            <img src="/images/logo.png" alt="logo" class="header__logo-image" />
+          </a>
+        </div>
+        <div class="header__title">
+          <a href="/docs/index.html" class="header__title-link">Cagibi</a>
+        </div>
+
+        <button class="header__burger" id="burger">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+        </button>
+      </div>
+
+      <nav class="header__nav" id="nav">
+        <button class="header__close" id="close">&times;</button>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="/docs/index.html" class="header__nav-link">Accueil</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/docs/recettes.html" class="header__nav-link">Recettes</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/docs/nutrition.html" class="header__nav-link"
+              >Conseils nutritionnels</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="recipe-page">
+      <section class="recipe-hero">
+        <div class="recipe-hero__image">
+          <img
+            src="/images/risotto-aux-champignons.avif"
+            alt="Risotto crémeux aux champignons"
+            class="recipe-hero__img"
+          />
+        </div>
+        <div class="recipe-hero__details">
+          <h1 class="recipe-hero__title">Risotto aux Champignons</h1>
+          <div class="recipe-hero__meta">
+            <span class="recipe-hero__portions">4 portions</span>
+            <span class="recipe-hero__time">Préparation : 15 min</span>
+            <span class="recipe-hero__time">Cuisson : 30 min</span>
+          </div>
+          <div class="recipe-hero__ingredients">
+            <h2>Ingrédients</h2>
+            <ul class="recipe-hero__ingredients-list">
+              <li>300 g de riz Arborio</li>
+              <li>200 g de champignons frais (girolles ou pleurotes)</li>
+              <li>1 oignon</li>
+              <li>1 L de bouillon de légumes</li>
+              <li>100 ml de vin blanc</li>
+              <li>50 g de parmesan râpé</li>
+              <li>2 cuillères à soupe d'huile d'olive</li>
+              <li>Persil frais</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="recipe-separator"></div>
+      <section class="recipe-instructions">
+        <h2>Instructions</h2>
+        <ol class="recipe-instructions__list">
+          <h3>Préparation :</h3>
+          <li>
+            Émincez l'oignon et les champignons. Faites revenir l'oignon dans
+            l'huile d'olive.
+          </li>
+          <li>
+            Ajoutez les champignons et faites cuire 5 min. Ajoutez le riz et
+            remuez 2 min.
+          </li>
+          <h3>Cuisson :</h3>
+          <li>
+            Versez le vin blanc et laissez évaporer. Ajoutez le bouillon chaud,
+            louche par louche, en remuant.
+          </li>
+          <li>
+            Après 20 min, ajoutez le parmesan et le persil. Servez
+            immédiatement.
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img
+            src="/images/logo.png"
+            alt="Logo Cagibi"
+            class="footer__logo-image"
+          />
+        </div>
+        <div class="footer__content">
+          <p class="footer__text">© 2025 Cagibi. Tous droits réservés.</p>
+          <a href="#" class="footer__link">Mentions légales</a>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/burgerMenu.js"></script>
+  </body>
+</html>

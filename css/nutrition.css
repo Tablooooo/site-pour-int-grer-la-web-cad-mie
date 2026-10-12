@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "Arizonia";
+  src: url(/fonts/Arizonia-Regular.ttf);
+}
+@font-face {
+  font-family: "Afacad";
+  src: url(/fonts/Afacad-Regular.ttf);
+}
+
+.nutrition-page {
+  max-width: 100%;
+  margin: 100px auto 0 auto;
+  padding: 20px 5vw;
+  font-family: "Afacad", sans-serif;
+  color: #3a4a3a;
+}
+
+.nutrition-page__title {
+  font-family: "Arizonia", sans-serif;
+  font-size: 48px;
+  color: #8c7431;
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Conseils */
+.nutrition-tips {
+  background-color: rgba(239, 231, 211, 0.5);
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nutrition-tips__title {
+  font-family: "Arizonia", sans-serif;
+  font-size: 32px;
+  color: #3a8c31;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nutrition-tips__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tip-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tip-card h3 {
+  color: #8c7431;
+}
+
+details.tip-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(140, 116, 49, 0.2);
+}
+
+details.tip-card[open] {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border-color: rgba(140, 116, 49, 0.4);
+}
+
+summary {
+  padding: 15px;
+  cursor: pointer;
+  background-color: rgba(239, 231, 211, 0.6);
+  border-radius: 10px 10px 0 0;
+  display: block;
+  position: relative;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+summary:hover {
+  background-color: rgba(239, 231, 211, 0.8);
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: "+";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #8c7431;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  content: "−";
+  transform: translateY(-50%) rotate(0deg);
+}
+
+details.tip-card p {
+  padding: 0 15px 10px 15px;
+  margin: 0;
+  line-height: 1.5;
+  color: #4a4a4a;
+}
+
+details.tip-card strong {
+  color: #3a8c31;
+  font-weight: 600;
+}
+
+details.tip-card a {
+  color: #8c7431;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+details.tip-card a:hover {
+  color: #3a8c31;
+  text-decoration: none;
+}
+
+/* Calculateurs */
+.nutrition-calculators {
+  background-color: rgba(239, 231, 211, 0.5);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: max-content;
+  margin: auto;
+}
+
+.nutrition-calculators__title {
+  font-family: "Arizonia", cursive;
+  font-size: 32px;
+  color: #3a8c31;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.calculator-container {
+  display: flex;
+  gap: 30px;
+}
+
+.calculator {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn-calculate {
+  background-color: #8c7431;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-calculate:hover {
+  background-color: #3a8c31;
+}
+
+.result {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(58, 144, 49, 0.1);
+  font-weight: bold;
+  color: #3a8c31;
+}
+
+/* Tableau nutritionnel */
+.nutrition-table {
+  background-color: rgba(239, 231, 211, 0.5);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.nutrition-table__title {
+  font-family: "Arizonia", cursive;
+  font-size: 32px;
+  color: #3a8c31;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+#ingredients-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#ingredients-table th,
+#ingredients-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#ingredients-table th {
+  background-color: #8c7431;
+  color: white;
+  font-weight: bold;
+}
+
+#ingredients-table tr {
+  background-color: rgba(239, 231, 211, 0.3);
+}
+
+#ingredients-table tr:hover {
+  background-color: rgba(239, 231, 211, 0.6);
+}

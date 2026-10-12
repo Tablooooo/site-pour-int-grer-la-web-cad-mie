@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Afacad";
+  src: url(/fonts/Afacad-Regular.ttf);
+}
+
+.footer {
+  background-color: rgba(239, 231, 211, 0.8);
+  padding: 20px 0;
+  font-family: "Afacad", sans-serif;
+  color: #3a4a3a;
+  border-top: 1px solid rgba(140, 116, 49, 0.2);
+}
+
+.footer__container {
+  max-width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer__logo {
+  width: 60px;
+  height: auto;
+}
+
+.footer__logo-image {
+  width: 100%;
+}
+
+.footer__content {
+  text-align: center;
+  width: 100%;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.footer__links {
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer__link {
+  color: #8c7431;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer__link:hover {
+  color: #3a8c31;
+  text-decoration: underline;
+}

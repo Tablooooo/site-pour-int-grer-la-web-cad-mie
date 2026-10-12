@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="/css/communs.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/docs/index.html" class="header__logo-link">
+            <img src="/images/logo.png" alt="logo" class="header__logo-image" />
+          </a>
+        </div>
+        <div class="header__title">
+          <a href="/docs/index.html" class="header__title-link">Cagibi</a>
+        </div>
+
+        <button class="header__burger" id="burger">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+        </button>
+      </div>
+
+      <nav class="header__nav" id="nav">
+        <button class="header__close" id="close">&times;</button>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="/docs/index.html" class="header__nav-link">Accueil</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/docs/recettes.html" class="header__nav-link">Recettes</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/docs/nutrition.html" class="header__nav-link"
+              >Conseils nutritionnels</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <h2 class="section-hero__slogan">
+          Découvrez des recettes décilieuses, simples et rapides qui plairont à
+          toute la famille !
+        </h2>
+        <a href="/docs/recettes.html" class="section-hero__cta"
+          >Voir les recettes</a
+        >
+      </section>
+
+      <section class="section-recipe-nutrition">
+        <section class="section-recipe">
+          <h2 class="section-recipe__title">Nos recettes du moment</h2>
+          <div class="section-recipe__container">
+            <a
+              href="/docs/recipe-cinamon-rolls.html"
+              class="recipe-cinamon-rolls__link"
+            >
+              <article class="recipe-card">
+                <div class="recipe-card__image">
+                  <img
+                    src="/images/cinamon-rolls.jpg"
+                    alt="Nom de la recette"
+                    class="recipe-card__img"
+                  />
+                </div>
+                <div class="recipe-card__content">
+                  <h3 class="recipe-card__title">Cinamon rolls</h3>
+                  <p class="recipe-card__description">
+                    Des rolls moelleux et parfumés à la cannelle, nappés d'un
+                    glaçage crémeux : un délice réconfortant à déguster à tout
+                    moment de la journée.
+                  </p>
+                  <div class="recipe-card__meta">
+                    <span class="recipe-card__time">1h20</span>
+                    <span class="recipe-card__difficulty">Difficile</span>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="/docs/recipe-tarte-a-la-citrouille.html">
+              <article class="recipe-card">
+                <div class="recipe-card__image">
+                  <img
+                    src="/images/tarte-citrouille.jpg"
+                    alt="Nom de la recette"
+                    class="recipe-card__img"
+                  />
+                </div>
+                <div class="recipe-card__content">
+                  <h3 class="recipe-card__title">Tarte à la citrouille</h3>
+                  <p class="recipe-card__description">
+                    Une tarte fondante et parfumée aux épices d'automne, avec
+                    une pâte croustillante : le dessert idéal pour les journées
+                    fraîches.
+                  </p>
+                  <div class="recipe-card__meta">
+                    <span class="recipe-card__time">1h05</span>
+                    <span class="recipe-card__difficulty">Moyen</span>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="/docs/recipe-soupe-de-potiron.html">
+              <article class="recipe-card">
+                <div class="recipe-card__image">
+                  <img
+                    src="/images/soupe-potiron.jpg"
+                    alt="Nom de la recette"
+                    class="recipe-card__img"
+                  />
+                </div>
+                <div class="recipe-card__content">
+                  <h3 class="recipe-card__title">Soupe de potiron</h3>
+                  <p class="recipe-card__description">
+                    Une soupe veloutée et réconfortante, parfaite pour les
+                    soirées d'automne, avec une touche de crème fraîche et
+                    d'épices douces.
+                  </p>
+                  <div class="recipe-card__meta">
+                    <span class="recipe-card__time">45 min</span>
+                    <span class="recipe-card__difficulty">Facile</span>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="/docs/recipe-cookies.html">
+              <article class="recipe-card">
+                <div class="recipe-card__image">
+                  <img
+                    src="/images/cookies-maison.jpg"
+                    alt="Nom de la recette"
+                    class="recipe-card__img"
+                  />
+                </div>
+                <div class="recipe-card__content">
+                  <h3 class="recipe-card__title">Cookies maison</h3>
+                  <p class="recipe-card__description">
+                    Croustillants à l'extérieur et fondants à l'intérieur, ces
+                    cookies maison regorgent de pépites de chocolat pour un
+                    plaisir simple et irrésistible.
+                  </p>
+                  <div class="recipe-card__meta">
+                    <span class="recipe-card__time">25min</span>
+                    <span class="recipe-card__difficulty">Facile</span>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="/docs/recipe-pate-carbo.html">
+              <article class="recipe-card">
+                <div class="recipe-card__image">
+                  <img
+                    src="/images/pate-carbo.jpg"
+                    alt="Nom de la recette"
+                    class="recipe-card__img"
+                  />
+                </div>
+                <div class="recipe-card__content">
+                  <h3 class="recipe-card__title">Pâtes à la carbonara</h3>
+                  <p class="recipe-card__description">
+                    Une recette italienne onctueuse et savoureuse, où les œufs,
+                    le pecorino et la pancetta s'unissent pour un plat
+                    réconfortant et gourmand.
+                  </p>
+                  <div class="recipe-card__meta">
+                    <span class="recipe-card__time">25 min</span>
+                    <span class="recipe-card__difficulty">Facile</span>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+        </section>
+        <div class="separator-line"></div>
+        <section class="section-nutritional-advice">
+          <h2 class="section-nutritional-advice__title">
+            Conseils Nutritionnels
+          </h2>
+
+          <div class="section-nutritional-advice__container">
+            <div class="advice-grid">
+              <details class="advice-details">
+                <summary class="advice-summary">
+                  <span class="advice-icon">🥗</span>
+                  <span>Équilibre Alimentaire</span>
+                  <span class="advice-arrow">▶</span>
+                </summary>
+                <div class="advice-content">
+                  <p>
+                    Privilégiez les aliments riches en protéines, fibres et
+                    bonnes graisses. Réduisez les sucres ajoutés et les aliments
+                    ultra-transformés pour maintenir un métabolisme sain et
+                    favoriser une perte de poids durable.
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Astuce :</strong> Remplissez la moitié de votre
+                    assiette avec des légumes, un quart avec des protéines
+                    maigres et un quart avec des glucides complexes.
+                  </p>
+                </div>
+              </details>
+
+              <details class="advice-details">
+                <summary class="advice-summary">
+                  <span class="advice-icon">💧</span>
+                  <span>Hydratation</span>
+                  <span class="advice-arrow">▶</span>
+                </summary>
+                <div class="advice-content">
+                  <p>
+                    Buvez au moins 1,5L d'eau par jour. Une bonne hydratation
+                    favorise le métabolisme, aide à l'élimination des toxines et
+                    peut même réduire la sensation de faim.
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Conseil :</strong> Parfois, la faim est en réalité
+                    de la soif. Buvez un grand verre d'eau et attendez 10
+                    minutes avant de manger.
+                  </p>
+                </div>
+              </details>
+
+              <details class="advice-details">
+                <summary class="advice-summary">
+                  <span class="advice-icon">🏃‍♀️</span>
+                  <span>Activité Physique</span>
+                  <span class="advice-arrow">▶</span>
+                </summary>
+                <div class="advice-content">
+                  <p>
+                    Associez alimentation saine et exercice régulier pour un
+                    métabolisme actif. L'activité physique augmente la dépense
+                    énergétique et préserve la masse musculaire pendant la perte
+                    de poids.
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Objectif :</strong> Visez 150 minutes d'activité
+                    modérée par semaine, soit environ 30 minutes par jour, 5
+                    jours sur 7.
+                  </p>
+                </div>
+              </details>
+
+              <details class="advice-details">
+                <summary class="advice-summary">
+                  <span class="advice-icon">😴</span>
+                  <span>Sommeil Réparateur</span>
+                  <span class="advice-arrow">▶</span>
+                </summary>
+                <div class="advice-content">
+                  <p>
+                    Un bon sommeil régule les hormones de la faim (ghréline et
+                    leptine) et favorise la récupération. Le manque de sommeil
+                    peut augmenter l'appétit et les envies de sucre.
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Recommandation :</strong> Dormez 7 à 8 heures par
+                    nuit et maintenez des horaires réguliers pour optimiser
+                    votre métabolisme.
+                  </p>
+                </div>
+              </details>
+
+              <details class="advice-details">
+                <summary class="advice-summary">
+                  <span class="advice-icon">🎯</span>
+                  <span>Objectifs Réalistes</span>
+                  <span class="advice-arrow">▶</span>
+                </summary>
+                <div class="advice-content">
+                  <p>
+                    Fixez-vous des objectifs atteignables et célébrez chaque
+                    progrès. Une perte de poids saine se situe entre 0,5 et 1 kg
+                    par semaine.
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Stratégie :</strong> Concentrez-vous sur les
+                    changements d'habitudes plutôt que sur le chiffre de la
+                    balance. Les résultats durables prennent du temps.
+                  </p>
+                </div>
+              </details>
+
+              <details class="advice-details">
+                <summary class="advice-summary">
+                  <span class="advice-icon">🌈</span>
+                  <span>Variété Alimentaire</span>
+                  <span class="advice-arrow">▶</span>
+                </summary>
+                <div class="advice-content">
+                  <p>
+                    Variez les aliments pour éviter les carences nutritionnelles
+                    et maintenir le plaisir de manger. Chaque couleur d'aliment
+                    apporte des nutriments différents.
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Règle d'or :</strong> Ajoutez de la couleur à vos
+                    repas ! Plus votre assiette est colorée, plus elle est riche
+                    en vitamines et antioxydants.
+                  </p>
+                </div>
+              </details>
+            </div>
+
+            <div class="calculator-preview">
+              <h3 class="calculator-preview__title">Outils Nutritionnels</h3>
+              <p class="calculator-preview__description">
+                Découvrez nos calculateurs personnalisés pour évaluer vos
+                besoins nutritionnels et suivre vos progrès de manière
+                scientifique.
+              </p>
+
+              <div class="calculator-features">
+                <div class="feature-item">
+                  <span class="feature-icon">📊</span>
+                  <span class="feature-text">Calculateur IMC</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">🔥</span>
+                  <span class="feature-text">Métabolisme Basal</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">🍽️</span>
+                  <span class="feature-text">Valeurs Nutritionnelles</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-nutritional-advice__cta">
+              <a
+                href="/docs/nutrition.html"
+                class="section-nutritional-advice__cta-button"
+              >
+                Découvrir tous nos conseils
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img
+            src="/images/logo.png"
+            alt="Logo Cagibi"
+            class="footer__logo-image"
+          />
+        </div>
+        <div class="footer__content">
+          <p class="footer__text">© 2025 Cagibi. Tous droits réservés.</p>
+          <a href="#" class="footer__link">Mentions légales</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/burgerMenu.js"></script>
+  </body>
+</html>

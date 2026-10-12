@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conseils Nutritionnels - Cagibi</title>
+    <link rel="stylesheet" href="/css/communs.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/nutrition.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/docs/index.html" class="header__logo-link">
+            <img src="/images/logo.png" alt="logo" class="header__logo-image" />
+          </a>
+        </div>
+        <div class="header__title">
+          <a href="/docs/index.html" class="header__title-link">Cagibi</a>
+        </div>
+
+        <button class="header__burger" id="burger">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+        </button>
+      </div>
+
+      <nav class="header__nav" id="nav">
+        <button class="header__close" id="close">&times;</button>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="/docs/index.html" class="header__nav-link">Accueil</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/docs/recettes.html" class="header__nav-link">Recettes</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/docs/nutrition.html" class="header__nav-link"
+              >Conseils nutritionnels</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="nutrition-page">
+      <h1 class="nutrition-page__title">
+        Conseils Nutritionnels pour une Perte de Poids Saine
+      </h1>
+      <!-- Section Conseils -->
+      <section class="nutrition-tips">
+        <h2 class="nutrition-tips__title">Nos Astuces</h2>
+        <div class="nutrition-tips__grid">
+          <!-- Équilibre alimentaire -->
+          <details class="tip-card">
+            <summary><h3>Équilibre Alimentaire</h3></summary>
+            <p>
+              <strong>Explication scientifique :</strong>
+              L’équilibre alimentaire repose sur une consommation adaptée des
+              macronutriments : protéines, glucides et lipides. Les protéines
+              stimulent la sécrétion de GLP-1, une hormone de satiété, régulant
+              ainsi l’appétit. Les glucides complexes, riches en fibres,
+              favorisent une libération lente d’énergie, évitant les pics
+              glycémiques. Les lipides, notamment les acides gras essentiels
+              (oméga-3 et oméga-6), sont indispensables à la structure
+              cellulaire et à la santé cardiovasculaire.
+            </p>
+            <p>
+              <strong>Stéréotype cassé :</strong>
+              Contrairement à l’idée reçue, toutes les graisses ne font pas
+              grossir : les graisses insaturées (huiles végétales, poissons
+              gras) sont bénéfiques pour le cœur et le métabolisme. Les glucides
+              complexes (légumineuses, céréales complètes) ne doivent pas être
+              évités, car ils apportent fibres, vitamines et énergie durable.
+            </p>
+            <p>
+              <strong>Conseils pratiques :</strong>
+              Consommez des protéines maigres (légumineuses, noix, poissons,
+              volailles). Privilégiez les glucides complexes (pain complet, riz
+              brun, légumes). Choisissez des lipides sains (huile de colza,
+              noix, poissons gras).
+            </p>
+            <p>
+              <strong>Sources :</strong>
+              <a href="https://www.anses.fr" target="_blank">ANSES</a>,
+              <a
+                href="https://www.ameli.fr/assure/sante/themes/alimentation-adulte/alimentation-adulte-equilibre-repas"
+                target="_blank"
+                >Ameli.fr</a
+              >
+            </p>
+          </details>
+
+          <!-- Hydratation -->
+          <details class="tip-card">
+            <summary><h3>Hydratation</h3></summary>
+            <p>
+              <strong>Explication scientifique :</strong>
+              L’eau constitue environ 60% du poids corporel et est indispensable
+              aux fonctions physiologiques. Une déshydratation même légère (1-2%
+              du poids corporel) altère les fonctions cognitives, l’humeur et la
+              performance physique. Les besoins en eau varient selon l’âge, le
+              sexe, le poids, l’activité physique et le climat.
+            </p>
+            <p>
+              <strong>Stéréotype cassé :</strong>
+              Boire 2 litres d’eau par jour est une règle générale, mais les
+              besoins réels varient. Les fruits et légumes apportent 20-30% des
+              besoins en eau.
+            </p>
+            <p>
+              <strong>Conseils pratiques :</strong>
+              Buvez régulièrement, environ un verre par heure, sans attendre la
+              soif. Consommez des aliments riches en eau (pastèque, concombre,
+              fraises). Limitez les boissons sucrées à moins d’un verre par
+              jour.
+            </p>
+            <p>
+              <strong>Sources :</strong>
+              <a href="https://www.anses.fr" target="_blank">ANSES</a>,
+              <a
+                href="https://www.nutripure.fr/fr/blog/hydratation-et-sante-n654"
+                target="_blank"
+                >Nutripure</a
+              >
+            </p>
+          </details>
+
+          <!-- Activité physique -->
+          <details class="tip-card">
+            <summary><h3>Activité Physique</h3></summary>
+            <p>
+              <strong>Explication scientifique :</strong>
+              L’activité physique améliore la sensibilité à l’insuline, réduit
+              la graisse viscérale et renforce les muscles et les os. Le timing
+              des nutriments (protéines, glucides) est crucial pour la
+              récupération musculaire et la performance.
+            </p>
+            <p>
+              <strong>Stéréotype cassé :</strong>
+              Il est souvent cru que manger des protéines immédiatement après le
+              sport est indispensable. En réalité, le timing dépend des
+              objectifs et du type d’exercice.
+            </p>
+            <p>
+              <strong>Conseils pratiques :</strong>
+              Pratiquez au moins 30 minutes d’activité dynamique par jour
+              (marche rapide, vélo, natation). Consommez protéines et glucides
+              adaptés à vos objectifs (ex : protéines dans les 30 min après
+              exercice de force).
+            </p>
+            <p>
+              <strong>Sources :</strong>
+              <a href="https://www.anses.fr" target="_blank">ANSES</a>,
+              <a
+                href="https://www.sorbonne-universite.fr/actualites/activite-physique-des-benefices-bien-au-dela-de-la-perte-de-poids"
+                target="_blank"
+                >Sorbonne Université</a
+              >
+            </p>
+          </details>
+
+          <!-- Sommeil -->
+          <details class="tip-card">
+            <summary><h3>Sommeil</h3></summary>
+            <p>
+              <strong>Explication scientifique :</strong>
+              Le sommeil régule les hormones de l’appétit, notamment la ghréline
+              (stimule la faim) et la leptine (signale la satiété). Une
+              privation de sommeil augmente la ghréline et diminue la leptine,
+              favorisant la surconsommation calorique.
+            </p>
+            <p>
+              <strong>Stéréotype cassé :</strong>
+              Dormir moins ne permet pas de brûler plus de calories. En réalité,
+              le manque de sommeil déséquilibre les hormones de l’appétit et
+              favorise la prise de poids.
+            </p>
+            <p>
+              <strong>Conseils pratiques :</strong>
+              Visez 7 à 9 heures de sommeil par nuit. Couchez-vous et levez-vous
+              à heures fixes. Évitez les écrans avant le sommeil.
+            </p>
+            <p>
+              <strong>Sources :</strong>
+              <a
+                href="https://pnourtier.com/2025/06/22/impact-sommeil-prise-de-poids/"
+                target="_blank"
+                >Pascal Nourtier</a
+              >,
+              <a
+                href="https://www.le-diabete-dans-tous-ses-etats.precidiab.org/obesite/obesite-quels-roles-jouent-le-manque-de-sommeil-et-la-desynchronisation-du-rythme-circadien/"
+                target="_blank"
+                >Le Diabète dans tous ses états</a
+              >
+            </p>
+          </details>
+
+          <!-- Petits Pas -->
+          <details class="tip-card">
+            <summary><h3>Petits Pas</h3></summary>
+            <p>
+              <strong>Explication scientifique :</strong>
+              La fixation d’objectifs selon la méthode SMART (Spécifique,
+              Mesurable, Atteignable, Réaliste, Temporellement défini) est un
+              levier puissant pour maintenir la motivation. Les objectifs trop
+              ambitieux ou non réalistes peuvent entraîner découragement et
+              échec.
+            </p>
+            <p>
+              <strong>Stéréotype cassé :</strong>
+              Les régimes stricts et les objectifs trop ambitieux sont souvent
+              perçus comme la seule solution pour perdre du poids. En réalité,
+              les objectifs progressifs et réalistes sont plus efficaces pour
+              une perte de poids durable.
+            </p>
+            <p>
+              <strong>Conseils pratiques :</strong>
+              Fixez-vous des objectifs SMART (ex : perdre 10 kg en 10 semaines).
+              Célébrez chaque progrès pour rester motivé.
+            </p>
+            <p>
+              <strong>Sources :</strong>
+              <a
+                href="https://cyril-maitre.com/p-objectifs_smart"
+                target="_blank"
+                >Cyril Maitre</a
+              >,
+              <a
+                href="https://okicom.fr/comment-fixer-des-objectifs-realistes-et-les-atteindre/"
+                target="_blank"
+                >Okicom</a
+              >
+            </p>
+          </details>
+
+          <!-- Variété -->
+          <details class="tip-card">
+            <summary><h3>Variété</h3></summary>
+            <p>
+              <strong>Explication scientifique :</strong>
+              La variété alimentaire est essentielle pour prévenir les carences
+              nutritionnelles et maintenir une santé optimale. Chaque aliment
+              apporte des nutriments spécifiques : vitamines, minéraux, fibres,
+              antioxydants.
+            </p>
+            <p>
+              <strong>Stéréotype cassé :</strong>
+              Manger sainement n’est pas nécessairement cher ni compliqué. Les
+              fruits et légumes de saison sont souvent moins chers et plus
+              frais.
+            </p>
+            <p>
+              <strong>Conseils pratiques :</strong>
+              Consommez des fruits, légumes, céréales complètes, légumes secs,
+              noix, graines. Variez les saveurs et textures pour éviter la
+              monotonie alimentaire.
+            </p>
+            <p>
+              <strong>Sources :</strong>
+              <a
+                href="https://www.eatology.fr/en/sante/variete-alimentation-bonne-sante/"
+                target="_blank"
+                >Eatology</a
+              >,
+              <a
+                href="https://www.ameli.fr/assure/sante/themes/alimentation-adulte/alimentation-adulte-equilibre-repas"
+                target="_blank"
+                >Ameli.fr</a
+              >
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <!-- Section Calculateurs -->
+      <section class="nutrition-calculators">
+        <h2 class="nutrition-calculators__title">Calculateurs</h2>
+        <div class="calculator-container">
+          <div class="calculator">
+            <h3>Calculateur de Métabolisme Basal (Harris-Benedict)</h3>
+            <form id="bmr-form">
+              <div class="form-group">
+                <label for="age">Âge (ans) :</label>
+                <input type="number" id="age" required />
+              </div>
+              <div class="form-group">
+                <label for="gender">Sexe :</label>
+                <select id="gender" required>
+                  <option value="male">Homme</option>
+                  <option value="female">Femme</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="weight">Poids (kg) :</label>
+                <input type="number" id="weight" required />
+              </div>
+              <div class="form-group">
+                <label for="height">Taille (cm) :</label>
+                <input type="number" id="height" required />
+              </div>
+              <button type="submit" class="btn-calculate">Calculer</button>
+            </form>
+            <div id="bmr-result" class="result"></div>
+          </div>
+
+          <div class="calculator">
+            <h3>Calculateur d’IMC</h3>
+            <form id="imc-form">
+              <div class="form-group">
+                <label for="imc-weight">Poids (kg) :</label>
+                <input type="number" id="imc-weight" required />
+              </div>
+              <div class="form-group">
+                <label for="imc-height">Taille (cm) :</label>
+                <input type="number" id="imc-height" required />
+              </div>
+              <button type="submit" class="btn-calculate">Calculer</button>
+            </form>
+            <div id="imc-result" class="result"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Tableau Nutritionnel -->
+      <section class="nutrition-table">
+        <h2 class="nutrition-table__title">
+          Valeurs Nutritionnelles des recettes au 100g
+        </h2>
+        <div class="table-container">
+          <table id="ingredients-table">
+            <thead>
+              <tr>
+                <th>Recette</th>
+                <th>Calories (kcal)</th>
+                <th>Protéines (g)</th>
+                <th>Glucides (g)</th>
+                <th>Lipides (g)</th>
+                <th>Fibres (g)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cinnamon Rolls</td>
+                <td>380</td>
+                <td>4.5</td>
+                <td>55</td>
+                <td>16</td>
+                <td>1.5</td>
+              </tr>
+              <tr>
+                <td>Pâtes Carbo</td>
+                <td>130</td>
+                <td>5</td>
+                <td>25</td>
+                <td>0.5</td>
+                <td>2.5</td>
+              </tr>
+              <tr>
+                <td>Soupe de Potiron</td>
+                <td>35</td>
+                <td>0.7</td>
+                <td>6</td>
+                <td>1</td>
+                <td>1.5</td>
+              </tr>
+              <tr>
+                <td>Tarte à la Citrouille</td>
+                <td>250</td>
+                <td>2.8</td>
+                <td>32</td>
+                <td>13</td>
+                <td>1.5</td>
+              </tr>
+              <tr>
+                <td>Cookie</td>
+                <td>460</td>
+                <td>5</td>
+                <td>55</td>
+                <td>24</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Tarte aux Pommes</td>
+                <td>240</td>
+                <td>2.5</td>
+                <td>35</td>
+                <td>10</td>
+                <td>2.5</td>
+              </tr>
+              <tr>
+                <td>Brownie au Chocolat</td>
+                <td>420</td>
+                <td>5</td>
+                <td>40</td>
+                <td>25</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Risotto aux Champignons</td>
+                <td>120</td>
+                <td>3</td>
+                <td>18</td>
+                <td>4</td>
+                <td>1.5</td>
+              </tr>
+              <tr>
+                <td>Muffins aux Myrtilles</td>
+                <td>280</td>
+                <td>4</td>
+                <td>38</td>
+                <td>12</td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img
+            src="/images/logo.png"
+            alt="Logo Cagibi"
+            class="footer__logo-image"
+          />
+        </div>
+        <div class="footer__content">
+          <p class="footer__text">© 2025 Cagibi. Tous droits réservés.</p>
+          <a href="#" class="footer__link">Mentions légales</a>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/burgerMenu.js"></script>
+    <script src="/js/nutrition.js"></script>
+  </body>
+</html>
